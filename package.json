@@ -1,0 +1,24 @@
+{
+  "name": "Activity 3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "login": "vercel login",
+    "logout": "vercel logout"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.14.0",
+    "ammo.js": "^0.0.10",
+    "gsap": "^3.11.4",
+    "lil-gui": "^0.17.0",
+    "three": "^0.148.0",
+    "vercel": "^39.1.2"
+  }
+}
